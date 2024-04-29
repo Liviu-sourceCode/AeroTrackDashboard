@@ -21,7 +21,7 @@
         para.textContent = 'EROARE: ' + message;
         para.classList.add('error-message');
         consoleOutput.appendChild(para);
-       // oldLog.apply(console, arguments);
+        oldLog.apply(console, arguments);
 
          // Scroll automat catre partea de jos
     consoleOutput.scrollTop = consoleOutput.scrollHeight;
@@ -45,7 +45,7 @@ let options = {
 // Conectare la broker cu optiunile de autentificare
 mqttClient.connect(options);
 
- let isConnected = false;
+ let isConnected = false; // Variabila pentru a monitoriza starea conectarii
 
  function onConnect() {
 
@@ -61,7 +61,7 @@ mqttClient.connect(options);
     
         console.log('Zborul este oprit!');
       }
-
+// Aici are loc abonarea la topicurile de interes
     mqttClient.subscribe("topic/speed");
     mqttClient.subscribe("topic/altitude");
     mqttClient.subscribe("topic/direction");
@@ -75,7 +75,7 @@ function publishData() {
         const direction = generateDirection();
 
         console.log('Zborul este pornit!');
-
+    // Publicam datele generate de cei trei 'senzori'- functiile care genereaza date random
         mqttClient.send('topic/speed', speed.toString());
         mqttClient.send('topic/altitude', altitude.toString());
         mqttClient.send('topic/direction', direction.toString());
@@ -168,7 +168,7 @@ function generateDirection() {
     return direction;
 }
 
- 
+// Reseteaza consola si afiseaza starea conexiunii la broker si starea zborului
 function resetConsole() {
 
    const consoleElement = document.getElementById('console-output');
