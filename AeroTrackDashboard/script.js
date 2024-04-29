@@ -92,7 +92,7 @@ function onMessageArrived(message) {
 
     // Verifica starea butonului si a conexiunii MQTT 
     if (button.style.backgroundColor === 'green' && isConnected) {
-        // Actualizează interfața cu valorile primite, în funcție de topic
+        // Actualizeaza interfata cu valorile primite, în functie de topic
         switch (message.destinationName) {
             case 'topic/speed':
                 document.getElementById('speed').textContent = message.payloadString;
