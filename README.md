@@ -1,7 +1,7 @@
 # AeroTrackDashboard
 
 Aero Track Dashboard este un proiect de monitorizare a datelor de zbor pentru aeronave, realizat cu ajutorul tehnologiei MQTT (Message Queuing Telemetry Transport). 
-Proiectul oferă o interfata de utilizator simpla si eleganta pentru a vizualiza viteza, altitudinea si directia unei aeronave in timp real.
+Proiectul ofera o interfata de utilizator simpla si eleganta pentru a vizualiza viteza, altitudinea si directia unei aeronave in timp real.
 
 Caracteristici principale:
 Interfata de utilizator intuitiva pentru monitorizarea datelor de zbor.
