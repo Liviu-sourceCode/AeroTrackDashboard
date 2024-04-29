@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroDashboard </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Aero Track Dashboard</h1>
+           
+        </div>
+        <div class="aircraft">
+            <img src="pngwing.com.png" alt="Aircraft">
+        </div>
+        <div class="switch">  
+            <button id="flightButton" onclick="toggleColor()">Toggle Flight</button>
+            <button id="resetConsole" onclick="resetConsole()">Reset Console</button>
+        </div>
+        <div class="info">
+            <p>Speed: <span id="speed">---</span> km/h</p>
+            <p>Altitude: <span id="altitude">---</span> m</p>
+            <p>Direction: <span id="direction">---</span>°</p>
+        </div>  
+    </div>
+
+    <div class="console-container">
+        
+        <div class="console" id="console-output">
+          
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "aerotrackdashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^5.5.4",
+    "paho-mqtt": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/paho-mqtt": "^1.0.10"
+  }
+}
