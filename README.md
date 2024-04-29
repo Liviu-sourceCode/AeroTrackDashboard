@@ -14,4 +14,4 @@ HTML, CSS si JavaScript pentru dezvoltarea interfetei de utilizator.
 Biblioteca Paho MQTT pentru gestionarea comunicarii prin protocolul MQTT.
 Stiluri CSS pentru aspectul vizual al dashboard-ului si a consolei.
 
-Acest proiect a fost creat pentru a demonstra utilizarea protocolului MQTT în monitorizarea datelor de zbor și pentru a oferi o interfață de utilizator simplă pentru vizualizarea acestor date.
+Acest proiect a fost creat pentru a demonstra utilizarea protocolului MQTT în monitorizarea datelor de zbor si pentru a oferi o interfata de utilizator simpla pentru vizualizarea acestor date.
