@@ -12,6 +12,6 @@ Caseta de consola pentru afisarea mesajelor de la broker si a eventualelor erori
 Tehnologii folosite:
 HTML, CSS si JavaScript pentru dezvoltarea interfetei de utilizator.
 Biblioteca Paho MQTT pentru gestionarea comunicarii prin protocolul MQTT.
-Stiluri CSS pentru aspectul vizual al dashboard-ului si a consolei.
+GitHub pentru gazduirea si versionarea codului.
 
 Acest proiect a fost creat pentru a demonstra utilizarea protocolului MQTT în monitorizarea datelor de zbor si pentru a oferi o interfata de utilizator simpla pentru vizualizarea acestor date.
