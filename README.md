@@ -1,17 +1,18 @@
-# AeroTrackDashboard
+# Aero Track Dashboard
 
-Aero Track Dashboard este un proiect de monitorizare a datelor de zbor pentru aeronave, realizat cu ajutorul tehnologiei MQTT (Message Queuing Telemetry Transport). 
-Proiectul ofera o interfata de utilizator simpla si eleganta pentru a vizualiza viteza, altitudinea si directia unei aeronave in timp real.
+## Project Overview
+**Aero Track Dashboard** is a flight data monitoring project for aircraft, developed using MQTT (Message Queuing Telemetry Transport) technology. The project provides a simple and elegant user interface to visualize the speed, altitude, and direction of an aircraft in real time.
 
-Caracteristici principale:
-Interfata de utilizator intuitiva pentru monitorizarea datelor de zbor.
-Conectare la un broker MQTT pentru receptionarea si trimiterea datelor.
-Buton de comutare pentru activarea si dezactivarea transmisiei datelor de la aeronava.
-Caseta de consola pentru afisarea mesajelor de la broker si a eventualelor erori.
+## Main Features
+- **User Interface**: Intuitive interface for monitoring flight data.
+- **MQTT Integration**: Connects to an MQTT broker to receive and send data.
+- **Data Transmission Toggle**: Button to activate and deactivate the transmission of aircraft data.
+- **Console Box**: Displays messages from the broker and any potential errors.
 
-Tehnologii folosite:
-HTML, CSS si JavaScript pentru dezvoltarea interfetei de utilizator.
-Biblioteca Paho MQTT pentru gestionarea comunicarii prin protocolul MQTT.
-GitHub pentru gazduirea si versionarea codului.
+## Technologies Used
+- **Frontend**: HTML, CSS, and JavaScript for developing the user interface.
+- **MQTT Library**: Paho MQTT library for managing communication via the MQTT protocol.
+- **Version Control**: GitHub for hosting and versioning the code.
 
-Acest proiect a fost creat pentru a demonstra utilizarea protocolului MQTT în monitorizarea datelor de zbor si pentru a oferi o interfata de utilizator simpla pentru vizualizarea acestor date.
+## Learning Outcomes
+This project was created to demonstrate the use of the MQTT protocol for monitoring flight data and to provide a simple user interface for visualizing this data. It offered practical experience in integrating MQTT for real-time data monitoring and creating a user-friendly interface.
